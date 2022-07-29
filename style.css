@@ -2,12 +2,10 @@
     background: linear-gradient(to bottom right, white, rgb(26, 64, 102));
 }
 
-
 img {
     height: 300px;
     width: 300px;
 }
-
 
 .container {
     background: white;
@@ -19,18 +17,15 @@ img {
     margin-left: 15px;
 }
 
-
 table {
     margin-left: auto;
     margin-right: auto;
     border: 2px solid rgb(136, 197, 182);
 }
 
-
 th, td {
     border: 2px solid rgb(93, 149, 121);
 }
-
 
 .btn-container {
     border: 1px solid black;
@@ -40,14 +35,22 @@ th, td {
     padding-bottom: 25px;
 }
 
-
 .flip-btn {
     background: linear-gradient(to bottom right, rgb(229, 163, 83), white);
     border-radius: 1cm;
 }
 
-
 .reset-btn {
     background: linear-gradient(to bottom right, rgb(73, 119, 118), white);
     border-radius: 1cm;
+}
+
+button {
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: rgb(253, 202, 141);
+    color: azure;
 }
