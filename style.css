@@ -23,8 +23,14 @@ table {
     border: 2px solid rgb(136, 197, 182);
 }
 
-th, td {
-    border: 2px solid rgb(93, 149, 121);
+button {
+    font-size: 1.2em;
+    border-radius: 10px;
+}
+
+button:hover {
+    background: rgb(253, 202, 141);
+    color: azure;
 }
 
 .btn-container {
@@ -45,12 +51,6 @@ th, td {
     border-radius: 1cm;
 }
 
-button {
-    font-size: 1.2em;
-    border-radius: 10px;
-}
-
-button:hover {
-    background: rgb(253, 202, 141);
-    color: azure;
+th, td {
+    border: 2px solid rgb(93, 149, 121);
 }
